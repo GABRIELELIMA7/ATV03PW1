@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header{
+    background-color: #14144c;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a, i{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+}
+main {
+    background: linear-gradient(#10144c, #ffffff);
+    height: 100vh;
+    width: 100%;
+}
+
+#content {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#produto h1{
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        top: 150px; /* Ajuste este valor para mover o texto sobre a imagem */
+        z-index: 1; /* Faz o texto ficar acima da imagem */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+                     0 0 20px rgba(255, 255, 255, 0.5),
+                     0 0 30px rgba(255, 255, 255, 0.4),
+                     0 0 40px rgba(0, 150, 255, 0.7),
+                     0 0 70px rgba(0, 150, 255, 0.6),
+                     0 0 80px rgba(0, 150, 255, 0.5),
+                     0 0 100px rgba(0, 150, 255, 0.4);
+    }
+    
+
+
+#produto img{ 
+    margin-top: 120px
+
+}
+
+#produto a button{
+
+background: #2264ce;
+width: 100px;
+border-radius: 50px;
+height: 30px;
+border: none;
+}
+#produto a button:hover{
+    background-color: aquamarine;
+
+}
+p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.slides{
+    margin-top: 200px;
+    
+
+}
+.content{
+    height: 515px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+
+
+}
+
+.navigation{
+   position: absolute;
+   bottom: 20px;
+   display: flex;
+}
+
+.bar{ 
+   width: 100px;
+   height: 25px;
+   border: 2px solid #fff;
+   margin: 6px;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+.bar:hover {
+   background-color: #fff;
+}
+
+
+
+
+
