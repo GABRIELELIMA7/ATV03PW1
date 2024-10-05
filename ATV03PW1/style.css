@@ -41,7 +41,7 @@ main {
         text-align: center;
         text-transform: uppercase;
         position: relative;
-        top: 150px; /* Ajuste este valor para mover o texto sobre a imagem */
+        top: 150px; 
         z-index: 1; /* Faz o texto ficar acima da imagem */
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
                      0 0 20px rgba(255, 255, 255, 0.5),
